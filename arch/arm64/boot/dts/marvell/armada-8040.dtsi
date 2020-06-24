@@ -57,11 +57,11 @@
 		gpio0 = &cpm_gpio0;
 		gpio1 = &cpm_gpio1;
 		ethernet0 = &emac0;
-		ethernet1 = &emac2;
-		ethernet2 = &emac3;
-		ethernet3 = &emac0_1;
-		ethernet4 = &emac2_1;
-		ethernet5 = &emac3_1;
+		ethernet1 = &emac0_1;
+		ethernet2 = &emac2_1;
+		ethernet3 = &emac3_1;
+		ethernet4 = &emac2;
+		ethernet5 = &emac3;
 	};
 
 	ap806 {
